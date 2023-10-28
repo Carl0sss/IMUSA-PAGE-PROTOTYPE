@@ -64,13 +64,10 @@ function Footer() {
               </a>
             </div>
           </div>
-
         </div>
       </div>
-      {/*   <!--Copyright section--> */}
       <div className='w-full p-3 bg-white text-center  text-amber-700 '>
         <small>Copyright &copy; 2023, INMUSA S.A. DE C.V.</small>
-
       </div>
     </div>
   )
