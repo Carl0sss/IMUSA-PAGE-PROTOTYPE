@@ -2,7 +2,7 @@ import React from 'react';
 import { Outlet } from "react-router-dom";
 import NavBar from './NavBar';
 import HeaderBanner from './HeaderBanner';
-
+import Footer from './Footer';
 function DefaultLayout() {
     return (
         <>
@@ -14,6 +14,7 @@ function DefaultLayout() {
                 <Outlet />
             </main>
             <footer>
+                <Footer/>
             </footer>
         </>
     )

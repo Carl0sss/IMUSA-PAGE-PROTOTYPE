@@ -9,13 +9,12 @@ function Home() {
             <div className='mx-auto max-w-2xl py-32 sm:py-48 lg:py-56'>
                 <div className='text-center mb-6'>
                     <h1 className='text-4xl tracking-tight text-gray-900 sm:text-6xl'>
-                        Línea de <strong>Productos</strong>
+                        Nuestros <strong>Rubros</strong>
                     </h1>
-                    <p className='mt-6 text-lg leading-8 text-gray-600'>
-                        Para comprender cuál es el que mejor se ajusta a sus necesidades
-                    </p>
-                    <a href="/" className='text-orange-600'>Ver productos</a>
-
+                    <br />
+                    <a href="/" className='text-orange-600'>Artes Gráficas</a>
+                    <br />
+                    <a href="/" className='text-orange-600'>Industria</a>
                 </div>
             </div>
             <img src={Divider} alt="" className='w-full' />
@@ -36,7 +35,7 @@ function Home() {
             <img src={Divider} alt="" className='w-full' />
 
             <div className='mx-auto max-w-2xl py-32 sm:py-48 lg:py-56'>
-            <div className='text-center mb-6'>
+                <div className='text-center mb-6'>
                     <h1 className='text-4xl tracking-tight text-orange-900 sm:text-6xl'>
                         Corte y Bobinaje especializado
                     </h1>

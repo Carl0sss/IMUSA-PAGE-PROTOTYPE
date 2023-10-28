@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import { VscChevronRight, VscChevronLeft } from 'react-icons/vsc';
-/* import Background from '../images/Background.png';
-import Exclude from '../images/Exclude.png';
- */
-import slide1 from '../images/slide1.jpg'
-import slide2 from '../images/slide2.jpg'
-import slide3 from '../images/slide3.jpg'
+import slide1 from '../images/slide1.png'
+import slide2 from '../images/slide2.png'
+import slide3 from '../images/slide3.png'
+import slide4 from '../images/slide4.png'
+
 
 function HeaderBanner() {
     //Lista de imagenes en el carousel
@@ -18,6 +17,9 @@ function HeaderBanner() {
         },
         {
             url: slide3
+        },
+        {
+            url: slide4
         },
     ];
     const [currentIndex, setCurrentIndex] = useState(0);
