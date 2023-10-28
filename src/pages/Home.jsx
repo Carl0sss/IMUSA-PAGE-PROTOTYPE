@@ -34,7 +34,7 @@ function Home() {
                             </div>
                         </div>
                         <div className='mb-1 mt-1'>
-                            <div className='mx-auto py-32'>
+                            <div className='mx-auto py-32 z-0'>
                                 <DefaultCarousel />
                             </div>
 

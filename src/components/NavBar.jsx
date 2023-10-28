@@ -37,7 +37,7 @@ function NavBar() {
     const ButtonWhite = buttonComponent === 'ButtonWhite' ? require('./ButtonWhite').default : null;
 
     return (
-        <div className={`w-full fixed top-0 left-0 ${scrolling ? 'bg-white' : ''}`}>
+        <div className={`w-full fixed top-0 left-0 ${scrolling ? 'bg-white' : ''}  z-10`}>
             <div className='md:flex items-center justify-between py-4 md:px-9 px-6'>
                 <a href='/' className='cursor-pointer flex items-center'>
                     <img src={scrolling ? navicoRed : navicon} alt="inmusa-brand-icon" className='nav-icon-brand' />

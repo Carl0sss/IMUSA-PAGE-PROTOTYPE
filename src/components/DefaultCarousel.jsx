@@ -42,7 +42,7 @@ function DefaultCarousel() {
     };
 
     return (
-        <div className='min-w-[620px] h-[480px] w-full m-auto py-5 relative group'>
+        <div className='min-w-[620px] h-[480px] w-full m-auto py-5 relative group z-0'>
             <div
                 style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
                 className='w-full h-full rounded-2xl bg-center bg-cover duration-500'

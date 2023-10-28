@@ -6,11 +6,11 @@ import Footer from './Footer';
 function DefaultLayout() {
     return (
         <>
-            <header>
+            <header className='z-10'>
                 <HeaderBanner />
                 <NavBar />
             </header>
-            <main>
+            <main className='z-0'>
                 <Outlet />
             </main>
             <footer>
