@@ -5,7 +5,7 @@ import { VscThreeBars } from "react-icons/vsc";
 
 function NavBar() {
     const Links = [
-        { name: "Nosotros", link: "/" },
+        { name: "Nosotros", link: "/Nosotros" },
         { name: "Artes Gráficas", link: "/" },
         { name: "Industria", link: "/" }
     ];
