@@ -9,7 +9,7 @@ function Footer() {
     <div className='flex flex-col items-center bg-stone-50 text-center lg:text-left'>
       <img src={Divider} alt="" className='w-full' />
       <div className='container p-6'>
-        <div className='grid place-items-center md:grid-cols-2 lg:grid-cols-3'>
+        <div className='grid justify-items-center md:grid-cols-2 lg:grid-cols-3'>
           <div className='mb-6 mt-4'>
             <h5 className='mb-2.5 font-bold text-amber-700'>
               Secciones
