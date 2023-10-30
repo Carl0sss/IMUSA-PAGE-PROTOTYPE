@@ -150,6 +150,19 @@ function Nosotros() {
 
                 </div>
 
+                <hr className='border-b-2 mt-6' />
+
+                <div className='text-start mb-6 mt-20'>
+                    <h1 className='text-4xl text-orange-700'>
+                        Promesa con la <b className='text-orange-700'>Comunidad</b>
+                    </h1>
+                </div>
+                <hr className='border-b-2 mt-6' />
+                <p className='text-justify mt-6 mb-24'>
+                    <b>Nos comprometemos a ser una empresa socialmente responsable</b>, donde nuestra actividad tomará en consideración el bienestar y desarrollo de nuestros colaboradores, y la comunidad en la que operamos.
+                    Haciendo negocios justos con nuestros proveedores y clientes que permitan el desarrollo y beneficio para todas las partes involucradas. 
+                </p>
+
             </section>
         </>
     )
