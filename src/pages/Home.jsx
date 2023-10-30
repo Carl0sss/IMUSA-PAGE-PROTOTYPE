@@ -138,6 +138,9 @@ function Home() {
                         <b>Somos una empresa salvadoreña especializada en la fabricación de plegadizos y etiquetas.</b>
                         Atendiendo a diferentes industrias del mercado, fidelizando grandes clientes nacionales e internacionales..
                     </p>
+                    <p className='text-lg text-gray-700 p-5'>
+                        <b>Nuestra filosofía para lograrlo ha sido buscar constantemente la mejora en estos aspectos:</b>
+                    </p>
                     <div className="mt-8 sm:mx-auto">
                         <Accordion title="Consultores Capacitados" content="Nuestros ejecutivos de ventas son constantemente capacitados para que puedan brindar la mejor asesoría técnica y atención al cliente, garantizando que puedan ser su apoyo durante todo el proceso." />
                         <Accordion title="Calidad" content="Contamos con un departamento de calidad que se dedica a auditar los procesos de producción velando para que el producto sea de la mejor calidad en el mercado." />
