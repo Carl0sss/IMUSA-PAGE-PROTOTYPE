@@ -15,9 +15,9 @@ function Home() {
                         Nuestros <strong>Rubros</strong>
                     </h1>
                     <br />
-                    <a href="/" className='text-orange-600'>Artes Gráficas</a>
+                    <a href="/ArtesGraficas" className='text-amber-700'>Artes Gráficas</a>
                     <br />
-                    <a href="/" className='text-orange-600'>Industria</a>
+                    <a href="/Industria" className='text-amber-700'>Industria</a>
                 </div>
             </div>
 
@@ -33,7 +33,7 @@ function Home() {
                                     <p className='text-lg text-gray-700 p-5'>Descubra los diferentes insumos para artes gráficas
                                         que se adapten a tus necesidades
                                     </p>
-                                    <Button>
+                                    <Button route={'/ArtesGraficas'}>
                                         Descrubrir más
                                     </Button>
                                 </div>
@@ -56,7 +56,7 @@ function Home() {
                                     <p className='text-lg text-gray-700 p-5'>Descubra los diferentes insumos para industria
                                         que se adapten a tus necesidades
                                     </p>
-                                    <Button>
+                                    <Button route={'/Industria'}>
                                         Descrubrir más
                                     </Button>
                                 </div>
@@ -96,7 +96,7 @@ function Home() {
                                         que nos permite poder brindarle mejores tiempos de respuesta con la mejor calidad a nuestros clientes.
                                         Conozca algunos de nuestros procesos, más allá de los métodos de impresión...
                                     </p>
-                                    <Button>
+                                    <Button route={'/ArtesGraficas'}>
                                         Descrubrir más
                                     </Button>
                                 </div>

@@ -25,7 +25,7 @@ function Contactactanos() {
                                 <div>
                                     <div>
                                         <div className='text-start mb-6 mt-16'>
-                                            <h1 className='text-2xl font-bold text-orange-700'>
+                                            <h1 className='text-2xl font-bold text-amber-700'>
                                                 Nuestra dirección
                                             </h1>
                                         </div>
@@ -44,7 +44,7 @@ function Contactactanos() {
                                         <h1 className='text-4xl text-gray-700'>
                                             08:00 AM - 04:00 PM
                                         </h1>
-                                        <p className='text-orange-700'>lunes a viernes</p>
+                                        <p className='text-amber-700'>lunes a viernes</p>
                                         <hr className='border-b-2 mt-6' />
                                     </div>
                                     <div>
@@ -54,16 +54,16 @@ function Contactactanos() {
                                             </h1>
                                         </div>
                                         <div className='flex items-center gap-2'>
-                                            <div className='text-orange-700'>
+                                            <div className='text-amber-700'>
                                                 <BiLogoWhatsapp />
                                             </div>
-                                            <p className='text-gray-700'><span className='text-orange-700'>+ (503)</span> 2555-9008</p>
+                                            <p className='text-gray-700'><span className='text-amber-700'>+ (503)</span> 2555-9008</p>
                                         </div>
                                         <div className='flex items-center gap-2'>
-                                            <div className='text-orange-700'>
+                                            <div className='text-amber-700'>
                                                 <BiPhoneCall />
                                             </div>
-                                            <p className='text-gray-700'><span className='text-orange-700'>+ (503)</span> 2555-9009</p>
+                                            <p className='text-gray-700'><span className='text-amber-700'>+ (503)</span> 2555-9009</p>
                                         </div>
                                         <hr className='border-b-2 mt-6' />
                                     </div>
@@ -74,10 +74,10 @@ function Contactactanos() {
                                             </h1>
                                         </div>
                                         <div className='flex items-center gap-2'>
-                                            <div className='text-orange-700'>
+                                            <div className='text-amber-700'>
                                                 <VscMail />
                                             </div>
-                                            <p className='text-gray-700'><span className='text-orange-700'>info</span>@correo.com</p>
+                                            <p className='text-gray-700'><span className='text-amber-700'>info</span>@correo.com</p>
                                         </div>
                                         <div className='text-start my-6'>
                                             <h1 className='text-xl font-bold text-gray-700'>

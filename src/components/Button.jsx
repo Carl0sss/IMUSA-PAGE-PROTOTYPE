@@ -11,7 +11,7 @@ function Button(props) {
 
 
     return (
-        <button className='outline outline-offset-2 outline-orange-600 text-orange-600 py-1 px-8 rounded-full md:ml-8 hover:outline-2' onClick={handleClick}>
+        <button className='outline outline-offset-2 outline-amber-700 text-amber-700 py-1 px-8 rounded-full md:ml-8 hover:outline-2' onClick={handleClick}>
             {props.children}
         </button>
     )

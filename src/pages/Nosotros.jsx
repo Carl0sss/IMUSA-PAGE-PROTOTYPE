@@ -24,8 +24,8 @@ function Nosotros() {
                     <div className='container'>
                         <div className='grid'>
                             <div className='text-start mb-6 mt-56'>
-                                <h1 className='text-2xl text-orange-700 sm:text-6xl'>
-                                    Nuestra <b className='text-orange-700'>Historia</b>
+                                <h1 className='text-2xl text-amber-700 sm:text-6xl'>
+                                    Nuestra <b className='text-amber-700'>Historia</b>
                                 </h1>
                             </div>
                             <hr className='border-b-2 mt-6' />
@@ -74,11 +74,11 @@ function Nosotros() {
                         <div className='grid lg:grid-cols-2 gap-10'>
                             <div className='flex flex-col items-center'>
                                 <div className='mb-6 mt-10'>
-                                    <h1 className=' text-orange-700 text-center text-4xl'>
+                                    <h1 className=' text-amber-700 text-center text-4xl'>
                                         <b>Visión</b>
                                     </h1>
                                 </div>
-                                <div className='flex w-[614px] h-[109px] bg-orange-600 rounded-full p-6'>
+                                <div className='flex w-[614px] h-[109px] bg-amber-700 rounded-full p-6'>
                                     <div className='flex items-center'>
                                         <div className='mx-2'>
                                             <svg width="57" height="57" viewBox="0 0 57 57" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -103,11 +103,11 @@ function Nosotros() {
                             </div>
                             <div className='flex flex-col items-center'>
                                 <div className='mb-6 mt-10'>
-                                    <h1 className=' text-orange-700 text-center text-4xl'>
+                                    <h1 className=' text-amber-700 text-center text-4xl'>
                                         <b>Misión</b>
                                     </h1>
                                 </div>
-                                <div className='flex w-[614px] h-[109px] bg-orange-600 rounded-full p-6'>
+                                <div className='flex w-[614px] h-[109px] bg-amber-700 rounded-full p-6'>
                                     <div className='flex items-center'>
                                         <div className='mx-2'>
                                             <svg width="57" height="57" viewBox="0 0 57 57" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -134,7 +134,7 @@ function Nosotros() {
                         <div className='grid lg:grid-cols-2 gap-10'>
                             <div>
                                 <div className='text-start mb-6 mt-10'>
-                                    <h1 className=' text-orange-700 text-center text-4xl'>
+                                    <h1 className=' text-amber-700 text-center text-4xl'>
                                         Promesa de <b>Valor</b>
                                     </h1>
                                 </div>
@@ -146,7 +146,7 @@ function Nosotros() {
                             </div>
                             <div>
                                 <div className='text-start mb-6 mt-10'>
-                                    <h1 className=' text-orange-700 text-center text-4xl'>
+                                    <h1 className=' text-amber-700 text-center text-4xl'>
                                         Pólitica de <b>Valor</b>
                                     </h1>
                                 </div>
@@ -169,8 +169,8 @@ function Nosotros() {
                     <div className='container'>
                         <div className='grid'>
                             <div className='text-start mb-6 mt-20'>
-                                <h1 className='text-4xl text-orange-700'>
-                                    Promesa con la <b className='text-orange-700'>Comunidad</b>
+                                <h1 className='text-4xl text-amber-700'>
+                                    Promesa con la <b className='text-amber-700'>Comunidad</b>
                                 </h1>
                             </div>
                             <hr className='border-b-2 mt-6' />

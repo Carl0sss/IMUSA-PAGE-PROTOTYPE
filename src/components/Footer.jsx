@@ -19,16 +19,16 @@ function Footer() {
                 <a href="/" className='text-amber-700'>Inicio</a>
               </li>
               <li>
-                <a href="/" className='text-amber-700'>Nosotros</a>
+                <a href="/Nosotros" className='text-amber-700'>Nosotros</a>
               </li>
               <li>
-                <a href="/" className='text-amber-700'>Artes Gráficas</a>
+                <a href="/ArtesGraficas" className='text-amber-700'>Artes Gráficas</a>
               </li>
               <li>
-                <a href="/" className='text-amber-700'>Industria</a>
+                <a href="/Industria" className='text-amber-700'>Industria</a>
               </li>
               <li>
-                <a href="/" className='text-amber-700'>Contáctanos</a>
+                <a href="/Contactanos" className='text-amber-700'>Contáctanos</a>
               </li>
             </ul>
           </div>
