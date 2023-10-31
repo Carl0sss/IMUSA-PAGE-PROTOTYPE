@@ -6,8 +6,8 @@ import { VscThreeBars } from "react-icons/vsc";
 function NavBar() {
     const Links = [
         { name: "Nosotros", link: "/Nosotros" },
-        { name: "Artes Gráficas", link: "/" },
-        { name: "Industria", link: "/" }
+        { name: "Artes Gráficas", link: "/ArtesGraficas" },
+        { name: "Industria", link: "/Industria" }
     ];
 
     const [open, setOpen] = useState(false);
@@ -55,8 +55,8 @@ function NavBar() {
                             </li>
                         ))
                     }
-                    {Button ? <Button>Contáctanos</Button> : null}
-                    {ButtonWhite ? <ButtonWhite>Contáctanos</ButtonWhite> : null}
+                    {Button ? <Button route={'/Contactanos'}>Contáctanos</Button> : null}
+                    {ButtonWhite ? <ButtonWhite route={'/Contactanos'}>Contáctanos</ButtonWhite> : null}
                 </ul>
             </div>
         </div>
