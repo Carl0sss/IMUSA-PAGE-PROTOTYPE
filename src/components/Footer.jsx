@@ -38,7 +38,10 @@ function Footer() {
             </h5>
             <ul className='mb-0 list-none'>
               <li>
-                <p className='text-amber-700 flex'><VscMail size={25} /><span className='px-1'> correo@correo.com</span></p>
+                <div className='flex items-center gap-1  text-amber-700'>
+                  <VscMail size={25} />
+                  <p className='text-amber-700 flex'>correo@correo.com</p>
+                </div>
               </li>
             </ul>
           </div>
