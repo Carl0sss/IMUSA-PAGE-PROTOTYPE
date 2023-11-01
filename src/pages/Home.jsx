@@ -4,8 +4,17 @@ import Button from '../components/Button';
 import DefaultCarousel from '../components/DefaultCarousel';
 import Accordion from '../components/Accordion';
 import Material1 from '../images/material1.jpg'
+import Carousel from '../components/Carousel';
+import AG1 from '../images/AG1.jpg';
+import AG2 from '../images/AG2.jpg';
 
 function Home() {
+
+    const agImages = [
+        AG1,
+        AG2
+    ]
+
     return (
 
         <>
@@ -40,7 +49,7 @@ function Home() {
                             </div>
                             <div className='mb-1 mt-1'>
                                 <div className='mx-auto z-0'>
-                                    <DefaultCarousel />
+                                    <Carousel images={agImages}/>
                                 </div>
 
                             </div>
