@@ -8,6 +8,7 @@ import slide5 from '../images/slide5.jpg'
 
 
 function HeaderBanner() {
+    
     //Lista de imagenes en el carousel
     const slides = [
         {

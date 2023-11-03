@@ -3,11 +3,12 @@ import { Outlet } from "react-router-dom";
 import NavBar from './NavBar';
 import HeaderBanner from './HeaderBanner';
 import Footer from './Footer';
+
+
 function DefaultLayout() {
     return (
         <>
             <header className='z-10'>
-                <HeaderBanner />
                 <NavBar />
             </header>
             <main className='z-0'>

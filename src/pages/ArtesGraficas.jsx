@@ -23,21 +23,6 @@ function ArtesGraficas() {
     ]
 
 
-
-
-    function scrollToTop() {
-        window.scrollTo({
-            top: 900, // Cambia el valor según cuánto quieras desplazarte
-            behavior: 'smooth',
-        });
-    }
-
-    // Agrega un efecto de lado para realizar el desplazamiento cuando el componente se monta
-    useEffect(() => {
-        scrollToTop();
-    }, []); // Asegúrate de pasar un array vacío como segundo argumento para que se ejecute solo una vez
-
-
     return (
         <>
             <div className='mx-auto py-16 sm:py-20 lg:py-32'>

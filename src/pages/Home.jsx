@@ -5,6 +5,7 @@ import DefaultCarousel from '../components/DefaultCarousel';
 import Accordion from '../components/Accordion';
 import Material1 from '../images/material1.jpg'
 import Carousel from '../components/Carousel';
+import HeaderBanner from '../components/HeaderBanner';
 import AG1 from '../images/AG1.jpg';
 import AG2 from '../images/AG2.jpg';
 
@@ -18,6 +19,7 @@ function Home() {
     return (
 
         <>
+            <HeaderBanner />
             <div className='mx-auto max-w-2xl py-16 sm:py-20 lg:py-32'>
                 <div className='text-center mb-6'>
                     <h1 className='text-4xl tracking-tight text-gray-900 sm:text-6xl'>
@@ -49,7 +51,7 @@ function Home() {
                             </div>
                             <div className='mb-1 mt-1'>
                                 <div className='mx-auto z-0'>
-                                    <Carousel images={agImages}/>
+                                    <Carousel images={agImages} />
                                 </div>
 
                             </div>

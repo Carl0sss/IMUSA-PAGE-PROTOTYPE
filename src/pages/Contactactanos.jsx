@@ -6,17 +6,17 @@ import { VscMail, VscChevronDown } from 'react-icons/vsc';
 
 function Contactactanos() {
 
-    function scrollToTop() {
+    /* function scrollToTop() {
         window.scrollTo({
-            top: 900, // Cambia el valor según cuánto quieras desplazarte
+            top: 900,
             behavior: 'smooth',
         });
     }
 
-    // Agrega un efecto de lado para realizar el desplazamiento cuando el componente se monta
+    
     useEffect(() => {
         scrollToTop();
-    }, []); // Asegúrate de pasar un array vacío como segundo argumento para que se ejecute solo una vez
+    }, []); */
 
 
     return (
