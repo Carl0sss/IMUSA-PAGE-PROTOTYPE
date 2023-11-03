@@ -1,8 +1,10 @@
-import React, { useEffect } from 'react';
+import React from 'react';
 import Divider from '../images/Divider.png';
 import { BiLogoFacebookSquare, BiLogoWhatsapp, BiLogoLinkedinSquare, BiLogoYoutube, BiPhoneCall } from "react-icons/bi";
 import { CiInstagram } from 'react-icons/ci';
 import { VscMail, VscChevronDown } from 'react-icons/vsc';
+import PageBanner from '../components/PageBanner';
+import ContactBanner from '../images/contactbanner.jpg'
 
 function Contactactanos() {
 
@@ -21,6 +23,7 @@ function Contactactanos() {
 
     return (
         <>
+            <PageBanner image={ContactBanner} />
 
             <div className='mx-auto max-w-2xl py-16 sm:py-20 lg:py-32'>
                 <div className='text-center mb-6'>

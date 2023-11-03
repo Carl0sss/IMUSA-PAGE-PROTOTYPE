@@ -1,4 +1,4 @@
-import React, { useEffect } from 'react'
+import React from 'react'
 import Divider from '../images/Divider.png';
 import DefaultCarousel from '../components/DefaultCarousel';
 import Carousel from '../components/Carousel';
