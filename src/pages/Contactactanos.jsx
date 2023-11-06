@@ -200,8 +200,8 @@ function Contactactanos() {
                                             </div>
                                         </div>
                                         <div className='flex flex-col mt-6'>
-                                            <label htmlFor="name" className='text-gray-700  mb-1'>Mensaje <span className='text-amber-700'>*</span></label>
-                                            <textarea id='name' type="text" className='rounded-lg border-2 p-2 text-gray-800 focus:outline-none focus:border-amber-700' />
+                                            <label htmlFor="message" className='text-gray-700  mb-1'>Mensaje <span className='text-amber-700'>*</span></label>
+                                            <textarea id='message' type="text" className='rounded-lg border-2 p-2 text-gray-800 focus:outline-none focus:border-amber-700' />
                                         </div>
                                         <div className='flex mt-7'>
                                             <button type='submit' className='bg-amber-700 text-white hover:bg-amber-600 rounded-full mx-auto py-2 px-8'>
