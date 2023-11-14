@@ -179,7 +179,7 @@ function Home() {
 
                                                 </div>
                                                 <p className='text-lg text-gray-700 p-5 group hover:font-bold hover:text-amber-700'>
-                                                    Profesionalismo
+                                                    Integridad
                                                 </p>
                                             </div>
                                             <div className='flex flex-col items-center justify-center text-center'>
@@ -191,7 +191,7 @@ function Home() {
                                                     </svg>
                                                 </div>
                                                 <p className='text-lg text-gray-700 p-5 group hover:font-bold hover:text-amber-700'>
-                                                    Calidad
+                                                    Excelencia
                                                 </p>
                                             </div>
                                             <div className='flex flex-col items-center justify-center text-center'>
@@ -206,7 +206,7 @@ function Home() {
 
                                                 </div>
                                                 <p className='text-lg text-gray-700 p-5 group hover:font-bold hover:text-amber-700'>
-                                                    Confianza
+                                                    Compromiso
                                                 </p>
                                             </div>
                                             <div className='flex flex-col items-center justify-center text-center'>
@@ -217,7 +217,7 @@ function Home() {
                                                     </svg>
                                                 </div>
                                                 <p className='text-lg text-gray-700 p-5 group hover:font-bold hover:text-amber-700'>
-                                                    Liderazgo
+                                                    Innovación
                                                 </p>
                                             </div>
 

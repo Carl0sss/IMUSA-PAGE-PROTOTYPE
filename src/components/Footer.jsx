@@ -1,6 +1,6 @@
 import React from 'react'
 import Divider from '../images/Divider.png'
-import { BiLogoFacebookSquare, BiLogoWhatsapp, BiLogoLinkedinSquare, BiLogoYoutube } from "react-icons/bi";
+import { BiLogoFacebookSquare, BiLogoWhatsapp } from "react-icons/bi";
 import { CiInstagram } from 'react-icons/ci'
 import { VscMail } from 'react-icons/vsc'
 
@@ -40,7 +40,7 @@ function Footer() {
               <li>
                 <div className='flex items-center gap-1  text-amber-700'>
                   <VscMail size={25} />
-                  <p className='text-amber-700 flex'>correo@correo.com</p>
+                  <p className='text-amber-700 flex'>ventas@insumosmultiples.com</p>
                 </div>
               </li>
             </ul>
@@ -57,12 +57,6 @@ function Footer() {
                 <CiInstagram size={30} />
               </a>
               <a href="/" className='text-amber-700 px-1'>
-                <BiLogoLinkedinSquare size={30} />
-              </a>
-              <a href="/" className='text-amber-700 px-1'>
-                <BiLogoYoutube size={30} />
-              </a>
-              <a href="/" className='text-amber-700 px-1'>
                 <BiLogoWhatsapp size={30} />
               </a>
             </div>
@@ -70,7 +64,7 @@ function Footer() {
         </div>
       </div>
       <div className='w-full p-3 bg-white text-center  text-amber-700 '>
-        <small>Copyright &copy; 2023, INMUSA S.A. DE C.V.</small>
+        <small>Copyright &copy; 2023, INSUMOS MULTIPLES S.A. DE C.V.</small>
       </div>
     </div>
   )

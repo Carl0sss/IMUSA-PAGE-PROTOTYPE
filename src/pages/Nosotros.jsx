@@ -10,7 +10,7 @@ function Nosotros() {
             <div className='mx-auto max-w-2xl py-16 sm:py-20 lg:py-32'>
                 <div className='text-center mb-6'>
                     <h1 className='text-4xl tracking-tight text-gray-900 sm:text-6xl'>
-                        ¿Quiénes <strong>somos?</strong>
+                        ¿Quiénes <strong>Somos?</strong>
                     </h1>
                 </div>
             </div>
@@ -25,7 +25,7 @@ function Nosotros() {
                         <div className='grid'>
                             <div className='text-start mb-6 mt-56'>
                                 <h1 className='text-2xl text-amber-700 sm:text-6xl'>
-                                    Nuestra <b className='text-amber-700'>Historia</b>
+                                    Sobre <b className='text-amber-700'>Nosotros</b>
                                 </h1>
                             </div>
                             <hr className='border-b-2 mt-6' />
@@ -38,27 +38,18 @@ function Nosotros() {
                     <div className='container py-6'>
                         <div className='grid lg:grid-cols-2 gap-10'>
                             <div>
-                                <p className='text-justify mb-4'><b>Insumos multiples</b> es una empresa 100% salvadoreña que nació en 1985 como un centro de copias ubicado en Antiguo Cuscatlán.
-                                    Se constituyó como persona jurídica el 14 de octubre de 1992 convirtiéndose en Impresos Múltiples S.A de C.V. dedicándose a las artes gráficas.
+                                <p className='text-justify mb-4'><b>INMUSA</b> tu proveedor confiable de insumos de alta calidad para la industria.
+                                    Surgimos para satisfacer la creciente demanda de productos excepcionales a precios competitivos.
                                 </p>
                                 <p className='text-justify mb-4'>
-                                    Este camino de evolución en la industria de las artes gráficas ha sido marcado por la tenacidad y visión de nuestros fundadores,
-                                    enfocándose en la innovación de procesos, alta calidad de producto y excelente servicio al cliente.
-                                </p>
-                                <p className='text-justify mb-4'>
-                                    Gracias a la bendición de Dios, a la confianza que han depositado nuestros clientes, proveedores y al apoyo de nuestros colaboradores
-                                    hemos tomado trabajos retadores que nos permiten ir creciendo.
+                                    Nos especializamos en dos categorías principales: insumos para artes gráficas (materia prima para impresión flexográfica, troqueles) y productos industriales (tarimas plásticas, pallets).
+                                    Comprometidos a ofrecer la mejor calidad al mejor precio, impulsamos la eficiencia en tu proceso productivo. Únete a INMUSA y experimenta la excelencia en cada suministro.
                                 </p>
                             </div>
                             <div>
                                 <p className='text-justify mb-4'>
-                                    <b>
-                                        Actualmente, somos uno de los mayores fabricantes de empaque plegadizo y etiquetas en el país, atendiendo a grandes clientes nacionales y regionales.
-
-                                    </b>
-                                </p>
-                                <p className='text-justify mb-4'>
-                                    Ahora, con más de 30 años de experiencia en el rubro, seguimos con la misma pasión y el mismo entusiasmo del primer día, con nuevos retos y proyectos que nos permitan siempre servirle mejor a nuestros clientes.
+                                    <b>INMUSA</b> o <b>Insumos Multiples</b> nace de la necesidad de la industria de una alta calidad de insumos para sus diferentes procesos.
+                                    Estamos comprometidos a dar los mejores precios del mercado con la mas alta calidad de tal manera que nuestros clientes puedan satisfacer las necesidad de un mercado cada ves más exigente.
                                 </p>
 
                             </div>
@@ -78,7 +69,7 @@ function Nosotros() {
                                         <b>Visión</b>
                                     </h1>
                                 </div>
-                                <div className='flex w-[614px] h-[109px] bg-amber-700 rounded-full p-6'>
+                                <div className='flex w-[614px] h-[115px] bg-amber-700 rounded-full p-6'>
                                     <div className='flex items-center'>
                                         <div className='mx-2'>
                                             <svg width="57" height="57" viewBox="0 0 57 57" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -96,7 +87,7 @@ function Nosotros() {
                                             </svg>
                                         </div>
                                         <div className='flex text-white mx-2'>
-                                            Ser la empresa líder en la fabricación de empaques y etiquetas en Centroamérica.
+                                            Ser reconocidos como el principal aliado de la industria, proporcionando insumos de la más alta calidad que impulsan la eficiencia y la excelencia en cada proceso productivo.
                                         </div>
                                     </div>
                                 </div>
@@ -107,7 +98,7 @@ function Nosotros() {
                                         <b>Misión</b>
                                     </h1>
                                 </div>
-                                <div className='flex w-[614px] h-[109px] bg-amber-700 rounded-full p-6'>
+                                <div className='flex w-[614px] h-[115px] bg-amber-700 rounded-full p-6'>
                                     <div className='flex items-center'>
                                         <div className='mx-2'>
                                             <svg width="57" height="57" viewBox="0 0 57 57" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -115,7 +106,8 @@ function Nosotros() {
                                             </svg>
                                         </div>
                                         <div className='flex text-white mx-2'>
-                                            Buscar soluciones innovadoras en nuestros procesos de fabricación y servicio al cliente.
+                                            En INMUSA, nos dedicamos a satisfacer las demandas de la industria ofreciendo productos excepcionales a precios competitivos.
+                                            Nos especializamos en insumos para artes gráficas y productos industriales.
                                         </div>
                                     </div>
                                 </div>
@@ -128,63 +120,114 @@ function Nosotros() {
                 </div>
 
 
-
                 <div className='flex flex-col items-center'>
-                    <div className='container py-6'>
-                        <div className='grid lg:grid-cols-2 gap-10'>
-                            <div>
-                                <div className='text-start mb-6 mt-10'>
-                                    <h1 className=' text-amber-700 text-center text-4xl'>
-                                        Promesa de <b>Valor</b>
-                                    </h1>
-                                </div>
-                                <hr className='border-b-2 mt-6' />
-                                <p className='text-justify my-6'>
-                                    <b>Prometemos brindarles a nuestros clientes un servicio y asesoría personalizada </b>
-                                    que nos permita crear relaciones comerciales duraderas donde los resultados obtenidos nos posicionan como su socio estratégico en la fabricación de empaques y etiquetas.
-                                </p>
+                    <div className='container'>
+                        <div className='grid'>
+                            <div className='text-center mb-6 mt-20'>
+                                <h1 className='text-4xl text-amber-700'>
+                                    Nuestros <b className='text-amber-700'>Valores</b>
+                                </h1>
                             </div>
-                            <div>
-                                <div className='text-start mb-6 mt-10'>
-                                    <h1 className=' text-amber-700 text-center text-4xl'>
-                                        Pólitica de <b>Valor</b>
-                                    </h1>
+                            <hr className='border-b-2 mt-6' />
+
+                            <div className='flex flex-col items-center'>
+                                <div className='container py-6'>
+                                    <div className='grid lg:grid-cols-2 gap-10'>
+                                        <div>
+                                            <p className='text-justify my-6'>
+                                                <b>Compromiso: </b>
+                                                Nos comprometemos a ofrecer productos de la más alta calidad,
+                                                cumpliendo con estándares rigurosos.
+                                            </p>
+                                            <p className='text-justify my-6'>
+                                                <b>Innovación: </b>
+                                                Buscamos constantemente nuevas soluciones para mejorar y ampliar
+                                                nuestra oferta de insumos, impulsando la creatividad y la eficiencia.
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <p className='text-justify my-6'>
+                                                <b>Integridad: </b>
+                                                Actuamos con honestidad y transparencia en todas nuestras
+                                                operaciones y relaciones comerciales.
+                                            </p>
+                                            <p className='text-justify my-6'>
+                                                <b>Excelencia: </b>
+                                                Buscamos la excelencia en todo lo que hacemos, desde la calidad de
+                                                nuestros productos hasta el servicio al cliente.
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                    <hr className='border-b-2 mt-6' />
                                 </div>
-                                <hr className='border-b-2 mt-6' />
-                                <p className='text-justify my-6'>
-                                    <b>Estamos comprometidos con la constante innovación de procesos, </b>
-                                    renovación de maquinaria y capacitaciones a nuestros colaboradores que nos permitan estar a la vanguardia de los avances tecnológicos, para una mejor calidad en nuestros productos y servicios.
-                                </p>
+
                             </div>
 
                         </div>
-                        <hr className='border-b-2 mt-6' />
+
                     </div>
-
                 </div>
-
-
 
                 <div className='flex flex-col items-center'>
                     <div className='container'>
                         <div className='grid'>
-                            <div className='text-start mb-6 mt-20'>
+                            <div className='text-center mb-6 mt-20'>
                                 <h1 className='text-4xl text-amber-700'>
-                                    Promesa con la <b className='text-amber-700'>Comunidad</b>
+                                    Política de <b className='text-amber-700'>Calidad</b>
                                 </h1>
                             </div>
                             <hr className='border-b-2 mt-6' />
-                            <p className='text-justify mt-6 mb-24'>
-                                <b>Nos comprometemos a ser una empresa socialmente responsable</b>, donde nuestra actividad tomará en consideración el bienestar y desarrollo de nuestros colaboradores, y la comunidad en la que operamos.
-                                Haciendo negocios justos con nuestros proveedores y clientes que permitan el desarrollo y beneficio para todas las partes involucradas.
-                            </p>
+
+                            <div className='text-center mt-10'>
+                                <p className='text-lg'>
+                                    <b>En INMUSA, </b>
+                                    como distribuidores comprometidos, nos enfocamos en:
+                                </p>
+                            </div>
+
+                            <div className='flex flex-col items-center'>
+                                <div className='container py-6'>
+                                    <div className='grid lg:grid-cols-2 gap-10'>
+                                        <div>
+                                            <p className='text-justify my-6'>
+                                                <b>Selección Rigurosa: </b>
+                                                Seleccionamos cuidadosamente proveedores que garanticen la más alta calidad en los productos que distribuimos.
+                                            </p>
+                                            <p className='text-justify my-6'>
+                                                <b>Cumplimiento Normativo: </b>
+                                                Nos comprometemos a cumplir con todas las normativas y estándares de calidad en la distribución de insumos, asegurando la satisfacción del cliente.
+                                            </p>
+                                            <p className='text-justify my-6'>
+                                                <b>Atención al Cliente: </b>
+                                                Priorizamos la atención al cliente, asegurando respuestas rápidas y soluciones efectivas para mantener la confianza y satisfacción de nuestros clientes.
+                                            </p>
+                                        </div>
+                                        <div>
+                                            <p className='text-justify my-6'>
+                                                <b>Procesos Eficientes: </b>
+                                                Mantenemos procesos eficientes en la cadena de distribución para garantizar la entrega oportuna y la integridad de los productos.
+                                            </p>
+                                            <p className='text-justify my-6'>
+                                                <b>Mejora Continua: </b>
+                                                Buscamos continuamente oportunidades para mejorar nuestros procesos de distribución y garantizar la excelencia en el servicio.
+                                            </p>
+                                            <p className='text-justify my-6'>
+                                                <b>Transparencia y Comunicación: </b>
+                                                Mantenemos una comunicación transparente con clientes y proveedores, fomentando relaciones sólidas basadas en la confianza y la transparencia.
+                                            </p>
+                                        </div>
+
+                                    </div>
+                                    <hr className='border-b-2 mt-6 mb-6' />
+                                </div>
+
+                            </div>
 
                         </div>
 
                     </div>
                 </div>
-
-
             </section>
         </>
     )
