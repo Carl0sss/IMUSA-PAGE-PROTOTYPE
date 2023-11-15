@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { VscChevronRight, VscChevronLeft } from 'react-icons/vsc';
 import slide1 from '../images/slide1.jpg'
 import slide2 from '../images/slide2.jpg'
@@ -8,7 +8,7 @@ import slide5 from '../images/slide5.jpg'
 
 
 function HeaderBanner() {
-    
+
     //Lista de imagenes en el carousel
     const slides = [
         {
@@ -42,6 +42,17 @@ function HeaderBanner() {
         const newIndex = isLastSlide ? 0 : currentIndex + 1;
         setCurrentIndex(newIndex);
     };
+
+    useEffect(() => {
+        // Cambia de diapositiva automáticamente cada 5 segundos (5000 milisegundos)
+        const intervalId = setInterval(() => {
+            nextSlide();
+        }, 3000);
+
+        // Limpia el intervalo cuando el componente se desmonta
+        return () => clearInterval(intervalId);
+        // eslint-disable-next-line react-hooks/exhaustive-deps
+    }, [currentIndex]); // Ejecuta el efecto cuando currentIndex cambia
 
     return (
         <div className='w-full h-[880px] relative group'>

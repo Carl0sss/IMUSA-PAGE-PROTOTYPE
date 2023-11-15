@@ -1,13 +1,15 @@
-import React from 'react'
+import React from 'react';
 import Divider from '../images/Divider.png';
 import DefaultCarousel from '../components/DefaultCarousel';
 import Carousel from '../components/Carousel';
-import AD1 from '../images/AD1.jpg'
-import AD2 from '../images/AD2.jpg'
-import AD3 from '../images/AD3.jpg'
-import MT1 from '../images/MT1.jpg'
-import MT2 from '../images/MT2.jpg'
-import MT3 from '../images/MT3.jpg'
+import AGBanner from '../images/AGBanner.jpg';
+import PageBanner from '../components/PageBanner';
+import AD1 from '../images/AD1.jpg';
+import AD2 from '../images/AD2.jpg';
+import AD3 from '../images/AD3.jpg';
+import MT1 from '../images/MT1.jpg';
+import MT2 from '../images/MT2.jpg';
+import MT3 from '../images/MT3.jpg';
 
 function ArtesGraficas() {
 
@@ -25,7 +27,8 @@ function ArtesGraficas() {
 
     return (
         <>
-            <div className='mx-auto py-16 sm:py-20 lg:py-32'>
+            <PageBanner image={AGBanner} />
+            <div className='mx-auto py-10 sm:py-16 lg:py-20'>
                 <div className='text-center mb-6'>
                     <h1 className='text-4xl tracking-tight text-gray-900 sm:text-6xl'>
                         Productos para <strong>Artes Gráficas</strong>

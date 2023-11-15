@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import ReCAPTCHA from "react-google-recaptcha";
 import emailjs from '@emailjs/browser';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -24,6 +25,12 @@ function Contactactanos() {
     }, []); */
 
     const form = useRef();
+    const recaptchaRef = useRef(null);
+
+    const handleRecaptchaChange = (value) => {
+        // Almacenar el valor de reCAPTCHA si es necesario
+        console.log('Recaptcha value:', value);
+    };
 
     const validateForm = () => {
         const requiredFields = ['name', 'email', 'phone', 'company', 'role', 'product', 'message'];
@@ -41,9 +48,17 @@ function Contactactanos() {
 
     const sendEmail = (e) => {
         e.preventDefault();
-        
+
         // Validación antes de enviar
         if (!validateForm()) {
+            return;
+        }
+
+        // Manejo de la verificación reCAPTCHA
+        const recaptchaValue = recaptchaRef.current.getValue();
+
+        if (!recaptchaValue) {
+            toast.error('Por favor, completa la verificación reCAPTCHA.');
             return;
         }
 
@@ -65,7 +80,7 @@ function Contactactanos() {
         <>
             <PageBanner image={ContactBanner} />
 
-            <div className='mx-auto max-w-2xl py-16 sm:py-20 lg:py-32'>
+            <div className='mx-auto max-w-2xl py-10 sm:py-16 lg:py-20'>
                 <div className='text-center mb-6'>
                     <h1 id='title' className='text-4xl tracking-tight text-gray-900 sm:text-6xl'>
                         Contáctenos
@@ -223,6 +238,15 @@ function Contactactanos() {
                                         <div className='flex flex-col mt-6'>
                                             <label htmlFor="message" className='text-gray-700  mb-1'>Mensaje <span className='text-amber-700'>*</span></label>
                                             <textarea id='message' name='message' type="text" className='rounded-lg border-2 p-2 text-gray-800 focus:outline-none focus:border-amber-700' />
+                                        </div>
+                                        <div className='flex mt-7'>
+                                            <div className='mx-auto'>
+                                                <ReCAPTCHA
+                                                    ref={recaptchaRef}
+                                                    sitekey="6LevpRApAAAAAAElkmFCDJQliWjhhMXTfZlngh54"
+                                                    onChange={handleRecaptchaChange}
+                                                />
+                                            </div>
                                         </div>
                                         <div className='flex mt-7'>
                                             <button type='submit' className='bg-amber-700 text-white hover:bg-amber-600 rounded-full mx-auto py-2 px-8'>

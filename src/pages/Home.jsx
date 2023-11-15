@@ -20,7 +20,7 @@ function Home() {
 
         <>
             <HeaderBanner />
-            <div className='mx-auto max-w-2xl py-16 sm:py-20 lg:py-32'>
+            <div className='mx-auto max-w-2xl py-10 sm:py-16 lg:py-20'>
                 <div className='text-center mb-6'>
                     <h1 className='text-4xl tracking-tight text-gray-900 sm:text-6xl'>
                         Nuestros <strong>Rubros</strong>
