@@ -1,12 +1,16 @@
 import React from 'react';
 import Divider from '../images/Divider.png';
 import DefaultCarousel from '../components/DefaultCarousel';
+import INBanner from '../images/INBanner.jpg';
+import PageBanner from '../components/PageBanner';
 
 function Industria() {
 
 
     return (
         <>
+
+            <PageBanner image={INBanner} />
             <div className='mx-auto py-10 sm:py-16 lg:py-20'>
                 <div className='text-center mb-6'>
                     <h1 className='text-4xl tracking-tight text-gray-900 sm:text-6xl'>
