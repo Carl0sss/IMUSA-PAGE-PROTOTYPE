@@ -114,11 +114,16 @@ function Contactactanos() {
                                             </h1>
                                         </div>
                                         <h1 className='text-4xl text-gray-700'>
-                                            08:00 AM - 04:00 PM
+                                            8:00 AM - 5:00 PM
                                         </h1>
                                         <p className='text-amber-700'>lunes a viernes</p>
+                                        <h1 className='text-4xl text-gray-700 mt-2'>
+                                            8:00 AM - 12:00 PM
+                                        </h1>
+                                        <p className='text-amber-700'>sábados</p>
                                         <hr className='border-b-2 mt-6' />
                                     </div>
+                                    
                                     <div>
                                         <div className='text-start my-6'>
                                             <h1 className='text-xl font-bold text-gray-700'>
