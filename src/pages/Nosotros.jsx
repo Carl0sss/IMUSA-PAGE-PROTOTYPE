@@ -1,11 +1,14 @@
 import React from 'react';
 import Divider from '../images/Divider.png';
+import PageBanner from '../components/PageBanner';
+import aboutBanner from '../images/aboutbanner.jpg';
 
 function Nosotros() {
 
 
     return (
         <>
+            <PageBanner image={aboutBanner} />
 
             <div className='mx-auto max-w-2xl py-10 sm:py-16 lg:py-20'>
                 <div className='text-center mb-6'>
