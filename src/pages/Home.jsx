@@ -1,19 +1,29 @@
 import React from 'react';
 import Divider from '../images/Divider.png';
 import Button from '../components/Button';
-import DefaultCarousel from '../components/DefaultCarousel';
 import Accordion from '../components/Accordion';
 import Material1 from '../images/material1.jpg'
 import Carousel from '../components/Carousel';
 import HeaderBanner from '../components/HeaderBanner';
 import AG1 from '../images/AG1.jpg';
 import AG2 from '../images/AG2.jpg';
+import AG3 from '../images/AG3.jpg';
+import IN1 from '../images/IN1.jpg';
+import IN2 from '../images/IN2.jpg';
+import IN3 from '../images/IN3.jpg';
 
 function Home() {
 
     const agImages = [
         AG1,
-        AG2
+        AG2,
+        AG3
+    ]
+
+    const inImages = [
+        IN1,
+        IN2,
+        IN3
     ]
 
     return (
@@ -74,7 +84,7 @@ function Home() {
                             </div>
                             <div className='mb-1 mt-1'>
                                 <div className='mx-auto'>
-                                    <DefaultCarousel />
+                                <Carousel images={inImages} />
                                 </div>
 
                             </div>
