@@ -2,7 +2,7 @@
 ---
 ## Important
 
-Install node.js [Node.js](https://nodejs.org/en)
+Install [Node.js](https://nodejs.org/en)
 
 ## Getting Started with Create React App
 
