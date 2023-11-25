@@ -16,19 +16,19 @@ function Footer() {
             </h5>
             <ul className='mb-0 list-none'>
               <li>
-                <a href="/" className='text-amber-700'>Inicio</a>
+                <a href="/" className='text-amber-700 hover:text-gray-500'>Inicio</a>
               </li>
               <li>
-                <a href="/Nosotros" className='text-amber-700'>Nosotros</a>
+                <a href="/Nosotros" className='text-amber-700 hover:text-gray-500'>Nosotros</a>
               </li>
               <li>
-                <a href="/ArtesGraficas" className='text-amber-700'>Artes Gráficas</a>
+                <a href="/ArtesGraficas" className='text-amber-700 hover:text-gray-500'>Artes Gráficas</a>
               </li>
               <li>
-                <a href="/Industria" className='text-amber-700'>Industria</a>
+                <a href="/Industria" className='text-amber-700 hover:text-gray-500'>Industria</a>
               </li>
               <li>
-                <a href="/Contactanos" className='text-amber-700'>Contáctanos</a>
+                <a href="/Contactanos" className='text-amber-700 hover:text-gray-500'>Contáctanos</a>
               </li>
             </ul>
           </div>
@@ -50,13 +50,13 @@ function Footer() {
               Redes sociales
             </h5>
             <div className='flex flex-wrap'>
-              <a href="/" className='text-amber-700 px-1'>
+              <a href="/" className='text-amber-700 px-1 hover:text-gray-500' target='_blank' rel='noopener noreferrer'>
                 <BiLogoFacebookSquare size={30} />
               </a>
-              <a href="/" className='text-amber-700 px-1'>
+              <a href="/" className='text-amber-700 px-1 hover:text-gray-500' target='_blank' rel='noopener noreferrer'>
                 <CiInstagram size={30} />
               </a>
-              <a href="/" className='text-amber-700 px-1'>
+              <a href="/" className='text-amber-700 px-1 hover:text-gray-500' target='_blank' rel='noopener noreferrer'>
                 <BiLogoWhatsapp size={30} />
               </a>
             </div>

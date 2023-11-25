@@ -2,7 +2,8 @@ import React from 'react';
 import { Outlet } from "react-router-dom";
 import NavBar from './NavBar';
 import Footer from './Footer';
-
+import ScrollToTopButton from './ScrollToTopButton';
+import WidgetWrap from './WidgetWrap';
 
 function DefaultLayout() {
     return (
@@ -16,6 +17,8 @@ function DefaultLayout() {
             <footer>
                 <Footer/>
             </footer>
+            <WidgetWrap />
+            <ScrollToTopButton />
         </>
     )
 }

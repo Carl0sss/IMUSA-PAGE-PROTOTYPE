@@ -123,7 +123,7 @@ function Contactactanos() {
                                         <p className='text-amber-700'>sábados</p>
                                         <hr className='border-b-2 mt-6' />
                                     </div>
-                                    
+
                                     <div>
                                         <div className='text-start my-6'>
                                             <h1 className='text-xl font-bold text-gray-700'>
@@ -157,13 +157,13 @@ function Contactactanos() {
                                             </h1>
                                         </div>
                                         <div className='flex flex-wrap'>
-                                            <a href="/" className='text-gray-700 px-1'>
+                                            <a href="/" className='text-gray-700 px-1 hover:text-amber-700' target='_blank' rel='noopener noreferrer'>
                                                 <BiLogoFacebookSquare size={30} />
                                             </a>
-                                            <a href="/" className='text-gray-700 px-1'>
+                                            <a href="/" className='text-gray-700 px-1 hover:text-amber-700' target='_blank' rel='noopener noreferrer'>
                                                 <CiInstagram size={30} />
                                             </a>
-                                            <a href="/" className='text-gray-700 px-1'>
+                                            <a href="/" className='text-gray-700 px-1 hover:text-amber-700' target='_blank' rel='noopener noreferrer'>
                                                 <BiLogoWhatsapp size={30} />
                                             </a>
                                         </div>
