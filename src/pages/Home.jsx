@@ -1,8 +1,7 @@
 import React from 'react';
+import Collage from '../components/Collage';
 import Divider from '../images/Divider.png';
 import Button from '../components/Button';
-import Accordion from '../components/Accordion';
-import Material1 from '../images/material1.jpg'
 import Carousel from '../components/Carousel';
 import HeaderBanner from '../components/HeaderBanner';
 import AG1 from '../images/AG1.jpg';
@@ -33,7 +32,7 @@ function Home() {
             <div className='mx-auto max-w-2xl py-10 sm:py-16 lg:py-20'>
                 <div className='text-center mb-6'>
                     <h1 className='text-4xl tracking-tight text-gray-900 sm:text-6xl'>
-                        Nuestros <strong>Rubros</strong>
+                        Nuestros <b className='text-orange-900'>Rubros</b>
                     </h1>
                     <br />
                     <a href="/ArtesGraficas" className='text-amber-700'>Artes Gráficas</a>
@@ -84,7 +83,7 @@ function Home() {
                             </div>
                             <div className='mb-1 mt-1'>
                                 <div className='mx-auto'>
-                                <Carousel images={inImages} />
+                                    <Carousel images={inImages} />
                                 </div>
 
                             </div>
@@ -97,47 +96,15 @@ function Home() {
 
             <img src={Divider} alt="" className='w-full' />
 
-            <section className='mx-auto lg:mx-28'>
 
-                <div className='mx-auto max-w-2xl py-16 sm:py-16 lg:py-24'>
-                    <div className='text-center mb-6'>
-                        <h1 className='text-4xl text-orange-900 sm:text-6xl'>
-                            Corte y Bobinaje especializado
-                        </h1>
-                    </div>
+            <div className='mx-auto max-w-4xl py-10 sm:py-16 lg:py-20'>
+                <div className='text-center mb-6'>
+                    <h1 className='text-4xl tracking-tight text-gray-900 sm:text-6xl pb-8'>
+                        Galeria de <b className='text-orange-900'>Productos</b>
+                    </h1>
+                    <Collage />
                 </div>
-
-                <div className='flex flex-col items-center'>
-                    <div className='container py-24'>
-                        <div className='grid gap-10 place-items-center lg:grid-cols-2'>
-                            <div className='mb-1 mt-1'>
-                                <div className='mx-auto'>
-                                    <h1 className='text-4xl font-bold  text-orange-800 p-2'>Materiales</h1>
-                                    <p className='text-lg text-gray-700 p-5'><p>Contamos con maquinaria de última generación</p>
-                                        que nos permite poder brindarle mejores tiempos de respuesta con la mejor calidad a nuestros clientes.
-                                        Conozca algunos de nuestros procesos, más allá de los métodos de impresión...
-                                    </p>
-                                    <Button route={'/ArtesGraficas'}>
-                                        Descrubrir más
-                                    </Button>
-                                </div>
-                            </div>
-                            <div className='mb-1 mt-1'>
-                                <div className='min-w-[620px] h-[480px] w-full m-auto relative z-0'>
-                                    <div
-                                        className="w-full h-full rounded-2xl bg-center bg-cover"
-                                        style={{ backgroundImage: `url(${Material1})` }}
-                                    ></div>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-
-            </section>
-
+            </div>
 
 
             <img src={Divider} alt="" className='w-full' />
@@ -147,32 +114,8 @@ function Home() {
                 <div className='flex flex-col items-center'>
                     <div className='container'>
                         <div className='grid'>
-                            <div className='mx-auto py-16 sm:py-48 lg:py-56'>
-                                <div className='text-center mb-6'>
-                                    <h1 className='text-2xl text-orange-900 sm:text-6xl'>
-                                        ¿Por qué trabajar con nosotros?
-                                    </h1>
-                                </div>
-                                <p className='text-lg text-gray-700 p-5'>
-                                    <b>Nosotros nos caracterizamos en ofrecer productos de alta calidad con la mejor atención al cliente.</b>
-                                    Convirtiéndonos en proveedores confiables y seguros en el reabastecimiento de sus plegadizos y etiquetas.
-                                    <b>Brindamos este servicio por medio de estos aspectos:</b>
-                                    Asesores capacitados, Vanguardia tecnológica, Calidad en nuestros procesos, Procesos industriales.
-                                </p>
-                                <p className='text-lg text-gray-700 p-5'>
-                                    <b>Somos una empresa salvadoreña especializada en la fabricación de plegadizos y etiquetas.</b>
-                                    Atendiendo a diferentes industrias del mercado, fidelizando grandes clientes nacionales e internacionales..
-                                </p>
-                                <p className='text-lg text-gray-700 p-5'>
-                                    <b>Nuestra filosofía para lograrlo ha sido buscar constantemente la mejora en estos aspectos:</b>
-                                </p>
-                                <div className="mt-8 sm:mx-auto">
-                                    <Accordion title="Consultores Capacitados" content="Nuestros ejecutivos de ventas son constantemente capacitados para que puedan brindar la mejor asesoría técnica y atención al cliente, garantizando que puedan ser su apoyo durante todo el proceso." />
-                                    <Accordion title="Calidad" content="Contamos con un departamento de calidad que se dedica a auditar los procesos de producción velando para que el producto sea de la mejor calidad en el mercado." />
-                                    <Accordion title="Vanguardia Tecnológica" content="Estamos en continua renovación de nuestra maquinaría, sistemas y procesos para poder responder ante las nuevas exigencias del mercado. Lo cual nos permite estar en constante mejora de procesos de producción y calidad de impresión." />
-                                    <Accordion title="Procesos Industriales" content="Conocemos el volumen de producto que mueven nuestros clientes, por lo que nuestros procesos son robustos y optimizados para competir con los mejores tiempos, calidad y precios a los diferentes sectores (farmacéutica, alimentaria, cosmética, textiles, etc.)." />
-                                </div>
-                                <div className='text-center mb-16 mt-56'>
+                            <div className='mx-auto w-full py-10 sm:py-16 lg:py-20'>
+                                <div className='text-center mb-20 mt-16'>
                                     <h1 className='text-2xl text-gray-700 sm:text-6xl'>
                                         Nuestros <b className='text-orange-900'>Valores</b>
                                     </h1>

@@ -118,17 +118,6 @@ function ArtesGraficas() {
                                         Superficie que realza la calidad de impresión, adhesivo de alta calidad para una fácil aplicación en etiquetas y proyectos impresos.
                                         Ideal para producir materiales impresos profesionales.
                                     </p>
-                                    {/* <ul className='text-lg text-gray-700 pl-14 list-disc'>
-                                        <li>
-                                            Adesivo mate
-                                        </li>
-                                        <li>
-                                            Adesivo brillo
-                                        </li>
-                                        <li>
-                                            Adesivo barniz
-                                        </li>
-                                    </ul> */}
                                 </div>
                             </div>
 

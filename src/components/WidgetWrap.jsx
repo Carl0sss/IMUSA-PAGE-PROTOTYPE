@@ -9,7 +9,7 @@ function WidgetWrap() {
                 <a className='w-full h-full hover:bg-amber-600 p-2 hover:rounded-t-lg' href='https://www.facebook.com/people/Inmusa/61554061884844/' target='_blank' rel='noopener noreferrer'>
                     <BiLogoFacebookSquare size={30} />
                 </a>
-                <a className='w-full h-full hover:bg-amber-600 p-2' href="https://www.twitter.com" target='_blank' rel='noopener noreferrer'>
+                <a className='w-full h-full hover:bg-amber-600 p-2' href='https://www.instagram.com/insumosmultiples.sv/' target='_blank' rel='noopener noreferrer'>
                     <CiInstagram size={30} />
                 </a>
                 <a className='w-full h-full hover:bg-amber-600 p-2' href="https://www.instagram.com" target='_blank' rel='noopener noreferrer'>

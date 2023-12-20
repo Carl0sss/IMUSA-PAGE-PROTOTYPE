@@ -55,7 +55,7 @@ function HeaderBanner() {
     }, [currentIndex]); // Ejecuta el efecto cuando currentIndex cambia
 
     return (
-        <div className='w-full h-[880px] relative group'>
+        <div className='w-full h-[880px] relative group min-w-min'>
             <div
                 style={{ backgroundImage: `url(${slides[currentIndex].url})` }}
                 className='w-full h-full bg-center bg-cover duration-500'
