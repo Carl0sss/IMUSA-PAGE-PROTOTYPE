@@ -56,7 +56,7 @@ function Footer() {
               <a href='https://www.instagram.com/insumosmultiples.sv/' className='text-amber-700 px-1 hover:text-gray-500' target='_blank' rel='noopener noreferrer'>
                 <CiInstagram size={30} />
               </a>
-              <a href="/" className='text-amber-700 px-1 hover:text-gray-500' target='_blank' rel='noopener noreferrer'>
+              <a href='https://wa.me/50360659297'  className='text-amber-700 px-1 hover:text-gray-500' target='_blank' rel='noopener noreferrer'>
                 <BiLogoWhatsapp size={30} />
               </a>
             </div>
