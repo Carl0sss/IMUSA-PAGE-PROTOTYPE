@@ -12,7 +12,7 @@ function WidgetWrap() {
                 <a className='w-full h-full hover:bg-amber-600 p-2' href='https://www.instagram.com/insumosmultiples.sv/' target='_blank' rel='noopener noreferrer'>
                     <CiInstagram size={30} />
                 </a>
-                <a className='w-full h-full hover:bg-amber-600 p-2' href="https://www.instagram.com" target='_blank' rel='noopener noreferrer'>
+                <a className='w-full h-full hover:bg-amber-600 p-2' href='https://wa.me/50360659297'  target='_blank' rel='noopener noreferrer'>
                     <BiLogoWhatsapp size={30} />
                 </a>
                 <hr className='border-b-0 border-white w-2/3 mx-auto' />
